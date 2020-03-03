@@ -17,6 +17,7 @@
 		C631F65A240E9BF9004A2E34 /* ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C631F659240E9BF9004A2E34 /* ShowAlert.swift */; };
 		C631F65C240E9DE5004A2E34 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C631F65B240E9DE5004A2E34 /* UIViewController+Navigation.swift */; };
 		C666114A240DBCAA009F0C28 /* FirebaseAuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6661149240DBCAA009F0C28 /* FirebaseAuthSession.swift */; };
+		C69C289F240EA8F400CA4D73 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C69C289E240EA8F400CA4D73 /* GoogleService-Info.plist */; };
 		E9FF49294D64E0E1020DDF30 /* Pods_FirebaseAuth_Lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6447E0E3CCFB59481E52444C /* Pods_FirebaseAuth_Lab.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		C631F659240E9BF9004A2E34 /* ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlert.swift; sourceTree = "<group>"; };
 		C631F65B240E9DE5004A2E34 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		C6661149240DBCAA009F0C28 /* FirebaseAuthSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthSession.swift; sourceTree = "<group>"; };
+		C69C289E240EA8F400CA4D73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				C6132FFD240D4F480031714A /* Main.storyboard */,
 				C6133000240D4F4B0031714A /* Assets.xcassets */,
 				C6133002240D4F4B0031714A /* LaunchScreen.storyboard */,
+				C69C289E240EA8F400CA4D73 /* GoogleService-Info.plist */,
 				C6133005240D4F4B0031714A /* Info.plist */,
 			);
 			path = "FirebaseAuth-Lab";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6133004240D4F4B0031714A /* LaunchScreen.storyboard in Resources */,
+				C69C289F240EA8F400CA4D73 /* GoogleService-Info.plist in Resources */,
 				C6133001240D4F4B0031714A /* Assets.xcassets in Resources */,
 				C6132FFF240D4F480031714A /* Main.storyboard in Resources */,
 			);
