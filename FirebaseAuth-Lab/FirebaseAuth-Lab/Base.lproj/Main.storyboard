@@ -150,21 +150,31 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pA3-F0-M6f">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="add a username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pA3-F0-M6f">
                                 <rect key="frame" x="161" y="286" width="233" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MUm-ia-j3d">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="add a phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MUm-ia-j3d">
                                 <rect key="frame" x="160" y="333.5" width="234" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UAa-Dy-BqP">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="update email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UAa-Dy-BqP">
                                 <rect key="frame" x="161" y="380" width="233" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrp-Y8-XeO">
+                                <rect key="frame" x="136.5" y="454" width="141" height="36"/>
+                                <color key="backgroundColor" red="0.6880241347579279" green="0.89393342150609134" blue="0.83765792718475873" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Update Profile"/>
+                                <connections>
+                                    <action selector="updateProfileButtonAction:" destination="YRP-xo-qO0" eventType="touchUpInside" id="n54-YW-fQt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -174,6 +184,7 @@
                             <constraint firstItem="pA3-F0-M6f" firstAttribute="centerY" secondItem="qre-QZ-TjF" secondAttribute="centerY" id="JQ3-2y-V05"/>
                             <constraint firstItem="cEA-ya-UhB" firstAttribute="leading" secondItem="qJJ-EM-FX1" secondAttribute="leading" constant="20" id="L4m-sh-ovi"/>
                             <constraint firstItem="XV8-IV-Ruy" firstAttribute="leading" secondItem="qJJ-EM-FX1" secondAttribute="leading" constant="20" id="Mae-ux-2go"/>
+                            <constraint firstItem="qrp-Y8-XeO" firstAttribute="top" secondItem="UAa-Dy-BqP" secondAttribute="bottom" constant="40" id="NKg-yt-CYY"/>
                             <constraint firstItem="UAa-Dy-BqP" firstAttribute="leading" secondItem="XV8-IV-Ruy" secondAttribute="trailing" constant="33" id="OdH-qe-Akl"/>
                             <constraint firstItem="qJJ-EM-FX1" firstAttribute="trailing" secondItem="fqn-a2-ysk" secondAttribute="trailing" constant="20" id="Pm2-aH-i4x"/>
                             <constraint firstItem="MUm-ia-j3d" firstAttribute="centerY" secondItem="cEA-ya-UhB" secondAttribute="centerY" id="RaQ-6G-pl0"/>
@@ -184,6 +195,7 @@
                             <constraint firstItem="qJJ-EM-FX1" firstAttribute="trailing" secondItem="UAa-Dy-BqP" secondAttribute="trailing" constant="20" id="jQM-zo-btY"/>
                             <constraint firstItem="qJJ-EM-FX1" firstAttribute="trailing" secondItem="MUm-ia-j3d" secondAttribute="trailing" constant="20" id="nfG-st-JzM"/>
                             <constraint firstItem="pA3-F0-M6f" firstAttribute="leading" secondItem="qre-QZ-TjF" secondAttribute="trailing" constant="60" id="u5q-5r-ePf"/>
+                            <constraint firstItem="qrp-Y8-XeO" firstAttribute="centerX" secondItem="A2z-5d-oTh" secondAttribute="centerX" id="ufT-WI-Lpq"/>
                             <constraint firstItem="qJJ-EM-FX1" firstAttribute="trailing" secondItem="pA3-F0-M6f" secondAttribute="trailing" constant="20" id="vJO-FH-9Wb"/>
                             <constraint firstItem="fqn-a2-ysk" firstAttribute="leading" secondItem="qJJ-EM-FX1" secondAttribute="leading" constant="20" id="ywi-4p-TEB"/>
                             <constraint firstItem="fqn-a2-ysk" firstAttribute="top" secondItem="qJJ-EM-FX1" secondAttribute="top" constant="20" id="zpf-Xn-Z97"/>
